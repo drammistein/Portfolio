@@ -1,0 +1,105 @@
+@media (max-width: 979px) {
+
+    #banner {
+        height:auto;
+    }
+    .banner_headline {
+        padding: 20px;
+    }
+    .banner_headline h1 {
+        font-size: 45px;
+    }
+    .banner_headline h2 {
+        font-size: 17.5px;
+    }
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+    }
+    #geral section {
+        padding: 20px;
+    }
+    #geral aside {
+        padding: 20px;
+    }
+    .footer_menu {
+        flex-direction: column;
+    }
+    .footer_area {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer_copy {
+        padding-left: 20px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+    nav ul {
+        float: right;
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        right: 0;
+        width: 50%;
+        background-color: rgba(248, 215, 153, 0.97);
+    }
+    ul li {
+        color: #fff;
+    }
+    header {
+        height: auto;
+    }
+    .logo {
+        padding: 20px;
+        width: 150px;
+    }
+    .mm_line {
+        width: 38px;
+        padding: 2px;
+    }
+   
+   
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-right: 20px;
+    }
+    nav .active a, nav a {
+        color: black;
+        font-weight: bold;
+
+    }
+    
+    .forms {
+        display: flex;
+        justify-content: center;
+    }
+    .form {
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #button_form {
+        width: 100%;
+    }
+    .banner_headline{
+        display: inline-flex;
+        justify-content: center;
+        padding-left: 250px;
+    }
+
+    .footer_area {
+        display: none;
+    }
+
+    #carouselExampleControls {
+        display: block;
+    }
+}
