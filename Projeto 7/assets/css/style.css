@@ -1,0 +1,127 @@
+body {
+    /*background-image: url(../images/background3.jpg);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #007bff;
+}  
+
+#logo {
+    width: 130px;
+    height: 20px;
+    padding-left: 50px;
+}
+.navbar {
+    height: 50px;
+    padding: 0.1rem 0.1rem;
+}
+
+/*--------------------------------*/
+.navbar-nav a {
+	color: white;
+    font-size: 16px;
+    font-weight: bold;
+    /*border-bottom: 4px solid #0260a0;*/
+    padding-top: 14px;
+    display: inline-block;
+    position: relative;
+}
+/*.navbar-nav a:hover {
+    color: #decece;
+    border-bottom: 4px solid #fff;
+}*/
+/*--------------------------------*/
+a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 3px;
+    bottom: -2px;
+    left: 0;
+    background-color: #f5eeee;
+    transform-origin: bottom right;
+    transition: transform 0.28s ease-in-out;
+}
+:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+/*--------------------------------*/
+.navbar-collapse {
+    padding-right: 50px;
+}
+
+.container-body {
+    height: 745px;
+    padding-bottom: 250px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #007bff;
+    border-radius: 0;
+    color: #fff;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+#mh4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+h5 {
+    margin-top: 10px;
+}
+
+#pesoEntrada, #pesoNf, #placa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#exampleFormControlSelect1 {
+    font-weight: bold;
+}
+#lbTara {
+    margin-top: 1px;
+}
+#resultado {
+    border: 1px solid #cecece;
+    border-radius: 3px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+label {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn-danger {
+    margin-left: 5px;
+}
+.btn-warning:hover {
+    color: #fff;
+}
+#inserir {
+    background-color: rgba(73, 72, 67, 0.8);
+}
+.modal-footer {
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 22px;
+    margin-right: 22px;
+}   
+
+
+
