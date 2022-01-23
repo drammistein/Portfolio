@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>My Form</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>MY FORM</h1>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+                <div class="column1">
+                    <form action="assets/html/area_aluno.html">
+                        <label>
+                           Nome Completo: 
+                        <input type="text"  autofocus placeholder="Nome Completo" required name="name" value="">
+
+                        </label>
+
+                        <label>
+                            RG:
+                        <input type="text" autofocus placeholder="00.000.000-0" required name="id" value="">
+                        </label>
+                        
+                        <label>
+                            Nome do Pai:
+                        <input type="text" autofocus placeholder="Nome do Pai" required name="father" value="">
+                        </label>
+                        
+                        <label>
+                            Escolaridade:
+                            <select name="education" required >
+                                <option value=""></option>
+                                <option value="1º Grau Incompleto">1º Grau Incompleto</option>
+                                <option value="1º Grau Completo">1º Grau Completo</option>
+                                <option value="2º Grau Incompleto">2º Grau Incompleto</option>
+                                <option value="2º Grau Completo">2º Grau Completo</option>
+                                <option value="Ensino Superior Incompleto">Ensino Superior Incompleto</option>
+                                <option value="Ensino Superior COmpleto">Ensino Superior Completo</option>
+                            </select>
+                        </label>
+
+                        <label>
+                            Telefone: 
+                        <input type="tel" autofocus placeholder="(00)-0000-0000" required name="fone" value="">
+                        </label>
+
+                        <label>
+                            E-mail:
+                        <input type="email" autofocus placeholder="E-mail" required name="email" value="">
+                        </label>
+
+                    </form> 
+                    
+                </div>
+
+                <div class="column2">
+                    <form action="assets/html/area_aluno.html">
+                        <label>
+                            Data de Nascimento:
+                         <input type="date" autofocus placeholder="Data de Nascimento" required name="birth" value="">
+                         </label>
+
+                         <label>
+                             CPF:
+                         <input id="cpf" type="text" autofocus placeholder="000.000.000-00" required name="id" value="">
+                         </label>
+                         
+                         <label>
+                             Nome da Mãe:
+                         <input id="mae" type="text" autofocus placeholder="Nome da Mãe" required name="mather" value="">
+                         </label>
+                         
+                         <label>
+                             Profissão:
+                         <input type="text" autofocus placeholder="Profissão" required name="occupation" value="" >
+                         </label>
+                         
+                         <label>
+                             Celular:
+                         <input id="celular" type="tel" autofocus placeholder="(00)-0000-0000" required name="fonemobile" value="">
+                         </label>
+                    </form> 
+                    
+                    <button class="save">Salvar</button>
+                    <button class="clear">Limpar Campos</button>
+                </div>
+   
+        </div>          
+     </section>
+  
+</body>
+</html>
